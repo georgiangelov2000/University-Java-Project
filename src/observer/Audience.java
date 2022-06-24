@@ -16,7 +16,7 @@ public class Audience implements Observer {
             return;
         }
         String lastPositon = this.workout.getUpdate();
-        System.out.println(this.position + " received: " + lastPositon);
+        System.out.println(this.position + "position: " + lastPositon);
     }
 
     @Override

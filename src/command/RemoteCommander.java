@@ -13,7 +13,7 @@ public class RemoteCommander {
 
     public void pressCommand(){
         if(this.command == null) {
-                System.out.println("No command set");
+                System.out.println("You don't have entry command yes.");
                 return;
             }
         this.command.execute();
